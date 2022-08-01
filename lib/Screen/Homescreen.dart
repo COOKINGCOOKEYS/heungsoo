@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:heungsoo/Models/home_design_course.dart';
 import 'package:heungsoo/Screen/Introduce.dart';
 
 import 'Bottombar.dart';
@@ -15,7 +16,7 @@ class Homescreen extends StatelessWidget {
           physics: NeverScrollableScrollPhysics(),
           children: [
             Introduce(),
-            Container(),
+            DesignCourseHomeScreen(),
             Container(),
             Container(),
             Container(),
